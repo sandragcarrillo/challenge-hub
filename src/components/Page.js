@@ -18,13 +18,27 @@ const Page = ({ children, back = true }) => {
   return (
     <div
       style={{
-        maxWidth: 1200,
-        margin: '20px auto',
-        textAlign: 'center',
-        wordWrap: 'break-word',
+        height: '100vh', 
+        width: '100%', 
+        display: 'flex',
+        flexDirection: 'column',
+        backgroundColor: '#50255f',
+        margin: 0, 
+        padding: 0, 
+        boxSizing: 'border-box',
       }}
     >
-      {children}
+      <div
+        style={{
+          maxWidth: 1200,
+          width: '100%', 
+          margin: 'auto',
+          textAlign: 'center',
+          wordWrap: 'break-word',
+        }}
+      >
+        {children}
+      </div>
     </div>
   )
 }

@@ -10,6 +10,7 @@ import { AppRoot } from '@telegram-apps/telegram-ui'
 import { useEffect, useCallback } from 'react'
 import { Navigate, Route, HashRouter, Routes } from 'react-router-dom'
 import Home from './pages/Home'
+import './index.css';
 
 const routes = [{ path: '/', Component: Home }]
 
