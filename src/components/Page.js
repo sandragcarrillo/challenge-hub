@@ -22,7 +22,7 @@ const Page = ({ children, back = true }) => {
         width: '100%', 
         display: 'flex',
         flexDirection: 'column',
-        backgroundColor: '#50255f',
+        backgroundColor: '#fffff',
         margin: 0, 
         padding: 0, 
         boxSizing: 'border-box',

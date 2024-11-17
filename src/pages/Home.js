@@ -97,6 +97,16 @@ const Home = () => {
             }}
           >
             <LargeTitle weight="1">Challenge Hub</LargeTitle>
+            <img
+              src="imagen-ch.png"
+              alt="Challenge Hub Banner"
+              style={{
+                marginTop: '20px',
+                width: '100%', 
+                height: 'calc(100% - 50px)',
+                objectFit: 'cover',
+              }}
+            />
           </div>
           <div
             style={{
