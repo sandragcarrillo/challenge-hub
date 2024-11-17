@@ -1,0 +1,12 @@
+type Challenge @entity {
+  id: ID!
+  creator: Bytes!
+  index: BigInt!
+  name: String!
+  hint: String!
+  merkleRoot: Bytes32!
+  maxWinners: Int!
+  metadata: String!
+  valid: Boolean!
+  prizePool: BigInt!
+}

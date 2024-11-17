@@ -1,0 +1,28 @@
+project: challenge-hub-subgraph
+specVersion: 0.0.5
+schema:
+  file: ./schema.graphql
+dataSources:
+  - kind: ethereum/contract
+    name: CuriosChallenge
+    network: "http://zircuit-chain-rpc.com" # Reemplaza con el endpoint RPC de Zircuit
+    source:
+      address: "0xBcF2EbE34681ea0a0F7D93E3326EBB9a16a5C35C" 
+      abi: CuriosChallenge
+      startBlock: 15949770 
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.5
+      language: wasm/assemblyscript
+      entities:
+        - Challenge
+      abis:
+        - name: CuriosChallenge
+          file: ./abis/CuriosChallenge.json
+      eventHandlers:
+        - event: ChallengeCreated(address,uint256)
+          handler: handleChallengeCreated
+        - event: PrizeClaimed(address,uint256,uint256)
+          handler: handlePrizeClaimed
+        - event: ChallengeInvalidated(address,uint256)
+          handler: handleChallengeInvalidated
