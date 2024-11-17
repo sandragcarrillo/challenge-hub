@@ -2,6 +2,9 @@
 
 Challenge Hub is a Telegram mini app with the most simplified real-time gaming fun and smooth crypto payments.
 
+[Challenge Hub on Telegram](https://t.me/mini_quests_bot/mychallenge)
+[Challenge Hub Slides](https://www.canva.com/design/DAGWqQUnHp8/hb3wdu1l4p-_GIAK8_sbtA/view?utm_content=DAGWqQUnHp8&utm_campaign=designshare&utm_medium=link&utm_source=editor)
+
 **Onboard new users into Web3**
 
 Challenge Hub helps DAOs and communities maintaining the security of new members, without the need to reveal their identities, just using Telegram.
