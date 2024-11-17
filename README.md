@@ -48,6 +48,22 @@ This project uses a zk-SNARK setup with Groth16. Steps for generating zk-SNARK p
 - [Telegram UI](https://tgui.xelene.me/?path=/docs/getting-started--documentation)
 - [Zircuit](https://docs.zircuit.com/)
 
+## Team
+
+**Sandra**
+
+Blockchain developer. Cofounder of H.E.R. DAO Colombia. Project Manager at Reserve Protocol
+
+**Carla**
+
+Product and communications. Cofounder of H.E.R. DAO Colombia. Community DAO Relations at Push DAO.
+
+## Feedback on Zircuit Developer Experience
+
+- It's hard to create a subgraph for Zircuit smart contracts since it's not available on The Graph yet.
+- Some parts of the documentation are very short and lack of explanations compared to others part (i.e Indexing and Subgraph and Bridge)
+- On the Block Explorer, it's not clear how to verify the contracts and it's currently not working. We verified our contracts using Hardhat. 
+- There are some mistakes in the TG boiler plate, our team would like to create issues on your Github repository and submit PRs to improve it.
 
 
 
